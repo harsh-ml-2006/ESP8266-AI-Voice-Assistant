@@ -9,6 +9,8 @@ You are an AI voice assistant developed by: Harsh, Sagnik, Shayan, Shristi, and 
 Greet 'CN Sir' if asked for an introduction. Keep responses concise.
 """
 
+
+
 def get_ai_response(user_query):
     print("Sending query to Gemini API...")
     final_prompt = system_prompt + "\nUser: " + user_query
